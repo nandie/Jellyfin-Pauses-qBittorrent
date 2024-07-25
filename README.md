@@ -24,7 +24,7 @@ This script monitors playback activity on a Jellyfin media server and pauses or 
    pip install requests qbittorrent-api
    
 3. Open the script file and update the following variables with your own settings:
-   
+```sh
 jellyfin_url = 'http://localhost:8096'
 jellyfin_api_key = 'your_jellyfin_api_key'
 qbittorrent_host = 'localhost'
